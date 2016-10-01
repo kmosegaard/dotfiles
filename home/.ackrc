@@ -1,0 +1,6 @@
+# Pipe color to external pager
+--color
+
+# Use less as pager
+--pager
+less -R

@@ -1,0 +1,7 @@
+set $gnome-schema org.gnome.desktop.interface
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Arc'
+    gsettings set $gnome-schema font-name 'Sans 10'
+    #gsettings set $gnome-schema icon-theme ''
+    #gsettings set $gnome-schema cursor-theme ''
+}

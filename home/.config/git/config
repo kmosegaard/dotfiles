@@ -1,0 +1,11 @@
+[user]
+    email = kristian@mosen.me
+    name = Kristian Mosegaard
+[push]
+    default = simple
+[credential]
+    helper = cache
+[alias]
+    st = status
+[pull]
+    ff = only
