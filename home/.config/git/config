@@ -7,5 +7,6 @@
     helper = cache
 [alias]
     st = status
+    fza = "!git ls-files -m -o --exclude-standard | fzf -m --print0 | xargs -0 git add"
 [pull]
     ff = only
