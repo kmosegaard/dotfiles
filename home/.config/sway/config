@@ -1,5 +1,5 @@
 set $mod Mod4
-set $term kitty --single-instance
+set $term alacritty
 set $menu 'bemenu-run --no-exec | xargs swaymsg exec --'
 set $lock ~/.local/bin/scripts/lock.sh
 
