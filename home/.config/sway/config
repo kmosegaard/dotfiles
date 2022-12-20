@@ -207,3 +207,10 @@ exec_always {
 
 include /etc/sway/config.d/*
 exec_always "systemctl --user start sway-session.target"
+
+workspace number 9
+exec keepassxc
+workspace number 2
+exec firefox
+workspace number 1
+exec alacritty
