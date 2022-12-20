@@ -28,6 +28,7 @@ map('n', '<leader>fd', ':lua require("telescope.builtin").git_files()<cr>', opti
 map('n', '<leader>fg', ':lua require("telescope.builtin").live_grep()<cr>', options)
 map('n', '<leader>fb', ':lua require("telescope.builtin").buffers()<cr>', options)
 map('n', '<leader>fh', ':lua require("telescope.builtin").help_tags()<cr>', options)
+map('n', '<leader>f<leader>', ':lua require("telescope.builtin").resume()<cr>', options)
 
 local pid = vim.fn.getpid()
 local omnisharp_bin = "omnisharp"
