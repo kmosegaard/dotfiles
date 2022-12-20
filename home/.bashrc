@@ -20,9 +20,6 @@ fi
 # import aliases
 test -s ~/.bash_aliases && . ~/.bash_aliases || true
 
-# hledger
-export LEDGER_FILE=~/Projects/misc/hledger/all.journal
-
 # nnn
 export NNN_PLUG='f:fzopen'
 
