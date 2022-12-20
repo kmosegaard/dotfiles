@@ -1,6 +1,6 @@
 require('plugins')
 
-vim.cmd 'colorscheme dracula'
+vim.cmd 'colorscheme sonokai'
 
 vim.opt.encoding = 'utf-8'
 vim.opt.tabstop = 4
